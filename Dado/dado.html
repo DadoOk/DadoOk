@@ -3,29 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dados project</title>
-    <link rel="stylesheet" href="dado.css"/>
+    <title>Dado project</title>
+    <link href="dado.css" rel="stylesheet">
 </head>
 <body>
-    <section class="container">
-        <header>Registration Form</header>
-        <form class="form" action="#">
+    <div class="wrapper">
+        <form action="">
+            <h1>Registration</h1>
+            
             <div class="input-box">
-                <label>Full Name</label>
-                <input type="text" placeholder="Enter full name" />
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name " required>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Username " required>
+                </div>
+            </div>
+            
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="email" placeholder="Email " required>
+                </div>
+                <div class="input-field">
+                    <input type="number" placeholder=" Phone number " required>
+                </div>
             </div>
 
             <div class="input-box">
-                <label>Full Name</label>
-                <input type="text" placeholder="Enter full name" />
-            </div>
-            <div class="column">
-                <div class="input-box">
-                    <label>Full Name</label>
-                    <input type="text" placeholder="Enter full name" />
+                <div class="input-field">
+                    <input type="password" placeholder="Password " required>
+                </div>
+                <div class="input-field">
+                    <input type="password" placeholder="Confirm password " required>
                 </div>
             </div>
+
+
         </form>
-    </section>
+    </div>
 </body>
 </html>
